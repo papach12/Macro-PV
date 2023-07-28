@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sofware MPV</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  </head>
+  <style>
+    nav, .ofcanvas {
+        background-color: #1e293b;
+    }
+    .nav-toggler {
+        border: none;
+    }
+    .nav-toggler:focus {
+        outline: none;
+        box-shadow: none;
+    }
+
+    @media(max-width:768px) {
+        .navbar-nav > li:hover{
+            background-color: #0d6efd;
+        }
+    }
+  </style>
+  <body>
+    <!-- MENU START -->
+    <nav class="vavbar navbar-expand-lg navbar-dark bg-dark">
+        <!-- NAV CONTAINER START-->     
+        <div class="container-fluid">
+            <a href="" class="navbar-brand text-info fw-semibold sf-4">MACRO PROXIMO VENCER</a>
+
+            <!-- NAV BOTTON -->
+            <button class="navbar-toggler" tipe="button" data-bs-toggle="offcanvas" data-bs-target="#menulateral    ">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- OFF CANVAS MAIN CONATINER START -->
+            <section class="offcanvas offcanvas-start bg-dark" id="menulateral" tabindex="-1">
+                <div class="offcanvas-header" data-bs-theme="dark">
+                <h5 class="offcanvas-title text-info">INICIO</h5>
+                <button class="btn-close" tipe="button" aria-label="close" date-bs-dismiss="offcanvas"></button>
+                 
+                </div>
+                <!--OFF CANVAS MENU LINKS START -->
+                <div class="offcanvas-body d-flex flex-column justify-content-between px-0">
+                    <ul class="navbar-nav fs-5 justify-content-evenly">
+                        <li class="nav-item p-3 py-md-1"><a href="" class="nav-link">Productos</a></li>
+                        <li class="nav-item p-3 py-md-1"><a href="" class="nav-link">Vencidos</a></li>
+                        <li class="nav-item p-3 py-md-1"><a href="" class="nav-link">Inventario</a></li>
+                        <li class="nav-item p-3 py-md-1"><a href="" class="nav-link">Contacto</a></li>
+                    </ul>
+               
+                    <img src="s1.jpg" class="d-block w-100 min-vh-100" alt="...">
+                   
+                    <!--enlaces redes sociales -->
+
+                    <div class="d-lg-none align-self-center py-3">
+                        <a href=""><i class="bi bi-twitter px-2 text-info fs-2"></i></a>
+                        <a href=""><i class="bi bi-facebook px-2 text-info fs-2"></i></a>
+                        <a href=""><i class="bi bi-whatsapp px-2 text-info fs-2"></i></a>
+                        <a href=""><i class="bi bi-instagram px-2 text-info fs-2"></i></a>
+                    </div>
+                </div>
+            </section>
+            <!-- OFF CANVAS MAIN CONATINER END --> 
+        </div>
+
+    </nav>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  </body>
+</html>
